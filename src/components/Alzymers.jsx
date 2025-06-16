@@ -1141,9 +1141,9 @@ const Dashboard = () => {
                             Current coordinates: {location?.latitude.toFixed(6)}, {location?.longitude.toFixed(6)}
                         </p>
                     </div>
-                    {/* <button className="permission-button view-map">
-                        View Map
-                    </button> */}
+                    <button className="permission-button view-map">
+                        Enabled
+                    </button>
                 </div>
             )}
             
